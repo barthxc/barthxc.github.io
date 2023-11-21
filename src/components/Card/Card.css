@@ -1,0 +1,69 @@
+.card {
+    --main-color:  rgb(96 165 250);
+    --submain-color: #ffffff;
+    --bg-color: rgb(15 23 42);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--bg-color);
+  }
+  
+  .card__img {
+    height: 192px;
+    width: 100%;
+  }
+  
+  .card__img img{
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  } 
+  
+  .card__title {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--main-color);
+  }
+  
+  .card__subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--submain-color);
+  }
+  
+  .card__btn {
+    margin-top: 15px;
+    width: 76px;
+    height: 31px;
+    border: 2px solid rgb(167 139 250);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+    color: white;
+    background: #634B8A;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    margin-left: 10px;
+  }
+  
+  .card__btn-solid {
+    background: #634B8A;
+    color: white;
+  }
+  
+  .card__btn:hover {
+    background: var(--main-color);
+    color: white;
+  }
+  
+  .card__btn-solid:hover {
+    background: var(--bg-color);
+    color:  white;
+  }

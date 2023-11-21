@@ -1,0 +1,18 @@
+/*SECTION 2*/
+/**Se puede eliinar sec-2 pero lo dejo por ahora**/
+
+#vector {
+  position: relative;
+  height: auto;
+  width: 400px;
+  object-fit: cover;
+
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 930px) {
+  #vector {
+    width: 40%;
+  }
+}

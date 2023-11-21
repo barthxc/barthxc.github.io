@@ -1,0 +1,104 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Section 1*/
+.home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("/public/ImgCv/CVbck1.png");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 90vh;
+}
+
+.home .section-content{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.home .section-content header{
+    padding: 30px;
+}
+
+/*Menu Lateral*/
+
+
+/* ********* */
+
+.home .section-content header .logo {
+    margin-top: 15px;
+    width: 7vmax;
+    display: inline;
+    cursor: pointer;
+}
+
+.home .section-content .info{
+    padding-bottom: 130px;
+}
+
+.home .section-content .info h1{
+    color: #e6e6e6;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.home .section-content .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.home .section-content .info .socialm{
+    margin: 20px 0;
+}
+.home .section-content .info .socialm a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #060f18;
+    color: #e6e6e6;
+    border-radius:50%;
+    border: 1px solid #634B8A;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.home .section-content .info .socialm a:hover{
+    color:#a37de1;
+    box-shadow: 0 0 20px #e6e6e6;
+}
+
+.home .section-content .foto{
+    position:relative;
+}
+
+.home .section-content .foto img{
+    max-width: 240px;
+    border-radius: 50%;
+    border: 5px solid #634B8A;
+    position:absolute;
+    left: 50%;
+    top:-125px;
+    transform:translateX(-50%);
+}
+/**ESTILOS GENERALES**/
+.section-title{
+    color: #e6e6e6;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}

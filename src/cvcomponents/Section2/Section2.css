@@ -1,0 +1,82 @@
+/***ABOUT ME ***/
+
+.aboutme{
+    background:#060f18;
+    padding-top: 20px;
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.aboutme .section-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.aboutme .section-content h3{
+    color: #e6e6e6;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.aboutme .section-content .special{
+    color:#36A2EB;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.aboutme .section-content p{
+    max-width: 700px;
+    margin: auto;
+    color:#e6e6e6;
+    font-size: 16px;
+}
+
+.aboutme .section-content .fila{
+    font-size: 16px;
+    display: flex;
+    margin-top:30px;
+    justify-content: space-between;
+}
+
+.aboutme .section-content .fila .col{
+    width: 30%;
+    padding: 0 10px 0 10px;
+}
+
+.aboutme .section-content .fila .col i{
+    display: inline-block;
+    color: #634B8A;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #634B8A;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.aboutme .section-content .fila .col .titulo-detalle{
+    color: #e6e6e6;
+}
+
+.aboutme .section-content .fila .col span{
+    display:block;
+    font-weight: bold;
+    margin: 8px 0;
+
+}
+
+
+/**Responsive aboutme**/
+
+@media screen and (max-width:800px) {
+    .aboutme .section-content .fila{
+        display: block;
+      }
+      .aboutme .section-content .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+      }
+    
+}

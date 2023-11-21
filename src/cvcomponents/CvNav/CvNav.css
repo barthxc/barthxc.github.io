@@ -1,0 +1,61 @@
+/**OPEN PARA CAMBIAR MI BOTON**/
+
+.nav-bar{
+    background-image: url(/public/jelly-close.png);
+    margin-top: 30px;
+    margin-left: 80px;
+    position:fixed;
+    font-size: 20px;
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    backdrop-filter: blur(15px);
+    border-radius: 20%;
+}
+
+
+/**OPEN PARA CAMBIAR MI BOTON**/
+
+.nav-bar.open{
+    background-image: url(/public/jelly-open.png);
+
+}
+
+.nav-bar img{
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+    border-radius: 20%;
+    
+}
+
+.nav{
+    display:none;
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    text-decoration: none;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.020);
+    flex-direction: column !important;
+}
+
+/**OPEN PARA ABRIR**/
+nav.open{
+    display:flex;
+}
+
+nav .cvmenu{
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
