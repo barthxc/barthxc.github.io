@@ -1,8 +1,7 @@
-import "./Navbar.css";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-
+import './Navbar.css';
 
 
 const Navbar = () => {
@@ -26,9 +25,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="container-menu">
         <img src="./LOGO_MORADO-B1.png" alt="logo" className="logo" />
-        <div className="menu"></div>
+      <div className="container-menu">
 
         <nav>
           <ul className="menulist">
@@ -64,13 +62,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={()=>{setIsOpen(false)}}>About</a>
           </li>
           <li>
-            <a href="#proyects">Proyect</a>
+            <a href="#projects" onClick={()=>{setIsOpen(false)}} >Proyect</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={()=>{setIsOpen(false)}} >Contact</a>
           </li>
         </div>
       </div>

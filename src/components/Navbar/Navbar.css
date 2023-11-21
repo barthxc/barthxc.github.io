@@ -1,20 +1,24 @@
 
 .container-menu{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0px 80px 0px 50px; 
+    padding: 1rem 80px 0px 50px; 
     display: flex;
     object-fit: cover;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     z-index: 1000;
     margin-top: 20px;
 }
 
-.container-menu .logo{
+ .logo{
     width: 6vmax;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 2rem;
+    margin-top: 1rem;    
 }
 
 nav ul{
@@ -98,15 +102,14 @@ nav ul li a.active{
         width: unset;
     }
 
-   /*Tamaño de sección2
-    .sec-2{
-        padding:10px
+    .logo{
+        margin-top: 14px;    
+        margin-left: 2rem;
     }
-   .sec-2 p{
-    font-size: 1.1em;
+   .container-menu {
+    padding: 0rem 80px 0px 50px; 
+
    }
-   */
-   
    /*Menú pantalla grande*/
     .container-menu .menulist{
         opacity: 0;

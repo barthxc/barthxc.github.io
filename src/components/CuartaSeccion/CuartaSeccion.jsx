@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const CuartaSeccion = () => {
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: false,
     slidesToShow: 5, // Mostrar 3 tarjetas por fila en pantallas pequeñas
     slidesToScroll: 3,
@@ -18,6 +18,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 3,
+          arrows: true,
         },
       },
       {
@@ -25,6 +26,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 2,
+          arrows: true,
         },
       },
       {
@@ -32,6 +34,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
+          arrows: true,
         },
       },
       {
@@ -39,7 +42,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
-          arrows: false,
+          arrows: true,
         },
       },
       {
@@ -47,7 +50,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
         },
       },
       {
@@ -55,7 +58,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
         },
       },
       {
@@ -63,7 +66,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           infinite:true,
           centerMode: true,
           centerPadding: "100px",
@@ -74,7 +77,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           infinite:true,
           centerMode: true,
           centerPadding: "40px",
@@ -85,7 +88,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: "20px",
         },
@@ -95,7 +98,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: "5px",
         },
@@ -105,7 +108,7 @@ const CuartaSeccion = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: "-10px",
 

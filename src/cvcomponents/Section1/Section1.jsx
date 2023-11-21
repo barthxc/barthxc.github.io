@@ -11,12 +11,12 @@ function Section1() {
     <div className="home" id="home">
       <div className="section-content">
         <header>
-          <div className="logo">
+          <div className="logocv">
             <a onClick={() => navigate('/')}>
               <img
                 src="./LOGO_MORADO-B1.png"
                 alt="logo"
-                className="logo"
+                className="logocv"
               ></img>
             </a>
           </div>
