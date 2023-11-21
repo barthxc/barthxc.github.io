@@ -1,6 +1,6 @@
 import './Section4.css';
 import EducacionTable from '../Tables/EducationTable';
-import ExperienceTable from '../Tables/EducationTable';
+import ExperienceTable from '../Tables/ExperienceTable';
 
 function Section4() {
   return (
