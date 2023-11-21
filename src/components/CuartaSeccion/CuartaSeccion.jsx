@@ -125,16 +125,15 @@ const CuartaSeccion = () => {
       nombre: "Portfolio",
       img: "p2.jpg",
       tec: "HTML- CSS - JS",
-      linkweb: "https://barthxc.github.io",
       linkgit: "https://github.com/barthxc/barthxc.github.io",
       v0:"https://github.com/barthxc/portfolio",
     },
-    {
-      nombre: "CV Web",
-      img: "p3.jpg",
-      tec: "REACT",
-      linkweb: "www.google.com",
-    },
+    // {
+    //   nombre: "CV Web",
+    //   img: "p3.jpg",
+    //   tec: "REACT",
+    //   linkweb: "www.google.com",
+    // },
     {
       nombre: "BakeryVaqueros",
       img: "p4.jpg",

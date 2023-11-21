@@ -13,7 +13,7 @@ const Card = ({ proyecto }) => {
       <div className="card__title">{nombre}</div>
       <div className="card__subtitle">{tec}</div>
       <div className="card__wrapper">
-        {v0 ? <button className="card__btn">Version 0</button> : null}
+        {v0 ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={v0}>Vercion 0</a></button> : null}
         {linkweb ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={linkweb}>Website</a></button> : null}
         {linkgit ? <button className="card__btn card__btn-solid"><a  target="_blank" rel="noopener noreferrer" href={linkgit}>GitHub</a></button> : null}
       </div>
