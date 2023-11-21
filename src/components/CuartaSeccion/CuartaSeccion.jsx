@@ -122,19 +122,12 @@ const CuartaSeccion = () => {
       linkweb: "https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/",
     },
     {
-      nombre: "PortfolioV1",
-      img: "p2.jpg",
-      tec: "HTML- CSS - JS",
-      linkweb: "www.google.com",
-      linkgit: "www.github.com",
-      v0:"www.google.com",
-    },
-    {
       nombre: "Portfolio",
       img: "p2.jpg",
-      tec: "React - TailwindCSS",
-      linkweb: "www.google.com",
-      linkgit: "www.github.com",
+      tec: "HTML- CSS - JS",
+      linkweb: "https://barthxc.github.io",
+      linkgit: "https://github.com/barthxc/barthxc.github.io",
+      v0:"https://github.com/barthxc/portfolio",
     },
     {
       nombre: "CV Web",

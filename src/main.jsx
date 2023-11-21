@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portfolio />} />
-        <Route path="cv" element={<Cv />} />
+        <Route path="/cv" element={<Cv />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
