@@ -23,8 +23,8 @@ function Section2() {
             <p>
               Soy un divertido sujeto al que le gusta añadir todos los
               conocimientos posibles al cerebro y a los proyectos. Me quedo con
-              la frase: Si no es funcional, consigue que lo sea. Y si no puedes,
-              hazlo bonito.
+              la frase: <span className="special">¿La mejor versión de ti mismo lo haría? Si no es así, conviértete en tu mejor versión!
+                </span>
             </p>
           </div>
 
@@ -38,9 +38,7 @@ function Section2() {
             <i className="fa-sharp fa-solid fa-heart"></i>
             <span className="titulo-detalle">Intereses</span>
             <p>
-              Me encanta el diseño a pesar de no estar especializado. Me gusta
-              la armonía y el contraste. Los detalles pueden hacer la
-              diferencia. También me encantan las hormigas.
+            Busco desentrañar el misterio del FullStack con el stack MERN como brújula, práctico para usar mi lágito de aventurero llamado Python. También me gustan las hormigas!
             </p>
           </div>
         </div>

@@ -25,7 +25,7 @@
 .aboutme .section-content .special{
     color:#36A2EB;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .aboutme .section-content p{
@@ -33,6 +33,7 @@
     margin: auto;
     color:#e6e6e6;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .aboutme .section-content .fila{

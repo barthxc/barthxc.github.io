@@ -4,7 +4,7 @@ const estudiosData = [
       year: "2013 - 2015",
       estudio: "Sistemas Microinformáticos",
       description: [
-        { id: 1, texto: "Manipilación de equipos informáticos" },
+        { id: 1, texto: "Manipulación de equipos informáticos" },
         { id: 2, texto: "Servidores" },
         {
           id: 3,

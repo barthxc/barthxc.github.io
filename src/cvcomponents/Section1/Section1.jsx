@@ -23,7 +23,7 @@ function Section1() {
         </header>
         <div className="info">
           <h1>Bart HxC</h1>
-          <h2>DEVELOPER - SOUND TECHNICIAN</h2>
+          <h2>DEVELOPER && TÉCNICO DE SONIDO</h2>
           <div className="socialm">
             <a href="https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/">
               <i className="fab fa-linkedin"></i>
