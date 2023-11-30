@@ -126,8 +126,9 @@ const CuartaSeccion = () => {
       nombre: "Portfolio",
       img: "p2.jpg",
       tec: "HTML- CSS - JS",
-      linkgit: "https://github.com/barthxc/barthxc.github.io",
-      v0:"https://github.com/barthxc/portfolio",
+      v0:"https://github.com/barthxc/Vanilla-Portfolio-BartHxC",
+      react: "https://github.com/barthxc/React-Portfolio-BartHxC",
+      astro: "https://github.com/barthxc/barthxc.github.io",
     },
     // {
     //   nombre: "CV Web",
