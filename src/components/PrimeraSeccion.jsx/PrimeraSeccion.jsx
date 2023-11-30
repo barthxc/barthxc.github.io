@@ -8,9 +8,9 @@ const PrimeraSeccion = () => {
       <a href="#about" className="btn" id="btn">
         Dive in!
       </a>
-      <img src="./Portfolio/s1f1.png" loading="lazy" className="bg" id="foto-1" />
-      <img src="./Portfolio/s1f2.png" loading="lazy" className="ballena-animation bg" id="foto-3" />
-      <img src="./Portfolio/s1f3.png" loading="lazy" className="bg" id="foto-2" />
+      <img src="./Portfolio/s1f1.png" alt="Fondo de la sección 1 imagen1" loading="lazy" className="bg" id="foto-1" />
+      <img src="./Portfolio/s1f2.png" alt="Fondo de la sección 1 imagen2" loading="lazy" className="ballena-animation bg" id="foto-3" />
+      <img src="./Portfolio/s1f3.png" alt="Fondo de la sección 1 imagen3" loading="lazy" className="bg" id="foto-2" />
     </section>
   );
 };

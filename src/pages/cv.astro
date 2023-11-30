@@ -1,0 +1,17 @@
+---
+import Cvlayout from '../layouts/Cvlayout.astro'
+import CvNav from "../cvcomponents/CvNav/CvNav";
+import Section1 from "../cvcomponents/Section1/Section1";
+import Section2 from "../cvcomponents/Section2/Section2";
+import Section3 from "../cvcomponents/Section3/Section3";
+import Section4 from "../cvcomponents/Section4/Section4";
+import CvFooter from "../cvcomponents/CvFooter/CvFooter";
+---
+<Cvlayout>
+  <CvNav client:visible />
+  <Section1 />
+  <Section2 />
+  <Section3 client:visible />
+  <Section4 />
+  <CvFooter />
+</Cvlayout>

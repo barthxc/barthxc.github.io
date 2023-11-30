@@ -2,7 +2,7 @@ import "./SegundaSeccion.css";
 const SegundaSeccion = () => {
   return (
     <section id="about">
-      <img src="./Portfolio/s2f1.png" className="bg" />
+      <img src="./Portfolio/s2f1.png" alt="Fondo de la sección 2 con una imagen" className="bg" />
 
       <div className="w-full flex flex-col md:flex-row items-center lg:items-center justify-evenly px-4 gap-4">
         <img alt="BartHxC" id="vector" src="./selfCircle.png" />

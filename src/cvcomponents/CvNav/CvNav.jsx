@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 import './CvNav.css';
 
 
@@ -11,12 +9,6 @@ const CvNav = () => {
     setIsOpen(!isOpen);
   };
 
-  const location = useLocation();
-  useEffect(() => {
-    if (location.pathname === '/') {
-      window.scrollTo(0, 0);
-    }
-  }, [location.pathname]);
 
 
 

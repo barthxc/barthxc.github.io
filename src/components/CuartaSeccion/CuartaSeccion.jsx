@@ -1,10 +1,8 @@
-import Footer from "../Footer/Footer";
 import Card from "../Card/Card";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Footer from "../Footer/Footer";
 const CuartaSeccion = () => {
   const settings = {
     dots: false,
@@ -151,6 +149,45 @@ const CuartaSeccion = () => {
       linkweb: "https://helpful-gumption-b43956.netlify.app",
       linkgit: "https://github.com/barthxc/GoatSales",
     },
+    
+    {
+      nombre: "Travel Agency",
+      img: "p16.png",
+      tec: "NODE - EXPRESS - PUG",
+      linkweb: "https://agencia-viajes-node-gamma.vercel.app",
+      linkgit: "https://github.com/barthxc/Agencia-de-Viajes-Node-Express-Pug",
+    },
+    {
+      nombre: "App Veterinary",
+      img: "p17.png",
+      tec: "MERN FullStack",
+      linkweb: "https://effortless-pegasus-4a07bd.netlify.app",
+      linkgit: "https://github.com/barthxc/MERN_APV_FRONT",
+    },
+    {
+      nombre:"Coworking SanJuan",
+      img:"p18.jpg",
+      tec:"MERN FullStack",
+      linkweb:"https://genuine-sorbet-fbbf1d.netlify.app",
+      linkgit:"https://github.com/barthxc/Frontend-Turnos-Coworking-SanJuan"
+    },
+    {
+      nombre:"Filmli",
+      img:"p19.png",
+      tec:"MERN FullStack",
+      linkweb:"https://astonishing-wisp-979f91.netlify.app",
+
+    },
+    {
+      nombre:"Tech Explorer",
+      img:"p20.png",
+      tec:"MERN FullStack",
+      linkweb:"https://stupendous-cuchufli-a7d2a1.netlify.app",
+      linkgit:"https://github.com/barthxc/Tech-Explorer-Front"
+    },
+
+
+    //Principales
     {
       nombre: "Form Email",
       img: "p6.png",
@@ -227,34 +264,6 @@ const CuartaSeccion = () => {
         linkgit: "https://github.com/barthxc/cotizador-prestamos-React",
       },
       {
-        nombre: "Travel Agency",
-        img: "p16.png",
-        tec: "NODE - EXPRESS - PUG",
-        linkweb: "https://agencia-viajes-node-gamma.vercel.app",
-        linkgit: "https://github.com/barthxc/Agencia-de-Viajes-Node-Express-Pug",
-      },
-      {
-        nombre: "App Veterinary",
-        img: "p17.png",
-        tec: "MERN FullStack",
-        linkweb: "https://effortless-pegasus-4a07bd.netlify.app",
-        linkgit: "https://github.com/barthxc/MERN_APV_FRONT",
-      },
-      {
-        nombre:"Coworking SanJuan",
-        img:"p18.jpg",
-        tec:"MERN FullStack",
-        linkweb:"https://genuine-sorbet-fbbf1d.netlify.app",
-        linkgit:"https://github.com/barthxc/Frontend-Turnos-Coworking-SanJuan"
-      },
-      {
-        nombre:"Filmli",
-        img:"p19.png",
-        tec:"MERN FullStack",
-        linkweb:"https://astonishing-wisp-979f91.netlify.app",
-
-      },
-      {
         nombre: "In coming!",
         img: "incoming.png",
         tec: "New Proyect Soon!",
@@ -263,7 +272,7 @@ const CuartaSeccion = () => {
 
   return (
     <section id="projects">
-      <img src="./Portfolio/s4f1.png" className="bg" />
+      <img src="./Portfolio/s4f1.png" alt="Fondo de la sección 4 con una imagen" className="bg" />
 
       <div className="w-full  mx-auto mb-10 px-10">
         <Slider {...settings}>
@@ -272,7 +281,7 @@ const CuartaSeccion = () => {
           ))}
         </Slider>
       </div>
-      <Footer />
+      <Footer/>
     </section>
   );
 };

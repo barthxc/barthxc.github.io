@@ -1,7 +1,5 @@
 import './Footer.css';
-import { useNavigate } from 'react-router-dom';
 const Footer = () => {
-  const navigate = useNavigate();
 
   return (
     <footer className="footer text-center text-white" id="contact">
@@ -50,8 +48,8 @@ const Footer = () => {
           </a>
 
           <a
+          href='/cv'
             className="btn btn-floating btn-lg m-1"
-            onClick={() => navigate('/cv')} 
             role="button"
             data-mdb-ripple-color="dark"
           >

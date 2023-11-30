@@ -1,8 +1,6 @@
 import "./Section1.css";
-import { useNavigate} from "react-router-dom";
 
 function Section1() {
-  const navigate = useNavigate();
 
 
 
@@ -12,7 +10,7 @@ function Section1() {
       <div className="section-content">
         <header>
           <div className="logocv">
-            <a onClick={() => navigate('/')}>
+            <a href="/">
               <img
                 src="./LOGO_MORADO-B1.png"
                 alt="logo"
