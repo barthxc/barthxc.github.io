@@ -12,7 +12,7 @@ function Section1() {
           <div className="logocv">
             <a href="/">
               <img
-                src="./LOGO_MORADO-B1.png"
+                src="/LOGO_MORADO-B1.png"
                 alt="logo"
                 className="logocv"
               ></img>
@@ -39,7 +39,7 @@ function Section1() {
           </div>
         </div>
         <div className="foto">
-          <img src="./ImgCv/self.png"></img>
+          <img src="/ImgCv/self.png"></img>
         </div>
       </div>
     </div>
