@@ -14,8 +14,8 @@ const Card = ({ proyecto }) => {
       <div className="card__subtitle">{tec}</div>
       <div className="card__wrapper">
         {v0 ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={v0}>Version 0</a></button> : null}
-        {astro ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={v0}>Astro</a></button> : null}
-        {react ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={v0}>React</a></button> : null}
+        {astro ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={astro}>Astro</a></button> : null}
+        {react ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={react}>React</a></button> : null}
         {linkweb ? <button className="card__btn"><a target="_blank" rel="noopener noreferrer" href={linkweb}>Website</a></button> : null}
         {linkgit ? <button className="card__btn card__btn-solid"><a  target="_blank" rel="noopener noreferrer" href={linkgit}>GitHub</a></button> : null}
       </div>
