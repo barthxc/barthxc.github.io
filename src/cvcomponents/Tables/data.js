@@ -35,11 +35,25 @@ const estudiosData = [
       year: "2022 - 2024",
       estudio: "Desarrollo de Aplicaciones Web",
       description: [
-        { id: 1, texto: "Frontend: React" },
-        { id: 2, texto: "Backend: Java, Python, Php" },
+        { id: 1, texto: "Frontend: HTML, CSS, JavaScript, Bootstrap" },
+        { id: 2, texto: "Backend: Java, Php" },
       ],
       lugar: "Universidad Alfonso X El Sabio",
       nota: "Null :)",
+    },
+    {
+      id: 4,
+      year: "1996 - Actualidad",
+      estudio: "Autoestudio",
+      description: [
+        { id: 1, texto: "React, Astro, Tailwind, Next, Pug" },
+        { id: 2, texto: "Python, Node, Mongoose, Express, Prisma " },
+        { id: 3, texto: "MySql, MongoDB" },
+        { id: 4, texto: "Git, Obsidian, Vercel" },
+        { id: 5, texto: "Docker, TypeScript" },
+      ],
+      lugar: "???",
+      nota: "En constante crecimiento :)",
     },
     
   ];

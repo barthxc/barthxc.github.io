@@ -1,7 +1,5 @@
 const dataCloud = [
-    "CSS",
     "Tailwind",
-    "JavaScript",
     "Php",
     "Python",
     "Node",
@@ -12,12 +10,13 @@ const dataCloud = [
     "Next",
     "Bootstrap",
     "Git",
-    "Java",
     "Pug",
     "Vercel",
     "Obsidian",
     "Mysql",
     "MongoDB",
+    "Astro",
+    "TypeScript"
   ];
 
 export default dataCloud;

@@ -50,8 +50,8 @@ const CvFooter = () => {
             className="btn btn-floating btn-lg m-1"
             href="./PBGCV.pdf"
             role="button"
+            target='blank'
             data-mdb-ripple-color="dark"
-            download="PBG-CV.pdf"
           >
             <i
               className="fa-solid fa-file-arrow-down fa-beat"

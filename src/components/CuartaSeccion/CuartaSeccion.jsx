@@ -265,6 +265,13 @@ const CuartaSeccion = () => {
         linkgit: "https://github.com/barthxc/cotizador-prestamos-React",
       },
       {
+        nombre: "HappyMoodCat",
+        img: "p21.png",
+        tec: "REACT",
+        linkweb: "https://happymoodcat.netlify.app",
+        linkgit: "https://github.com/barthxc/HappyMoodCat",
+      },
+      {
         nombre: "In coming!",
         img: "incoming.png",
         tec: "New Proyect Soon!",
