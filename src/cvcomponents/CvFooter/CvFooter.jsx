@@ -42,7 +42,7 @@ const CvFooter = () => {
             <i className="fa-solid fa-envelope"></i>
           </a>
 
-          <a
+          {/* <a
             className="btn btn-floating btn-lg m-1"
             href="PBGCV.pdf"
             role="button"
@@ -51,7 +51,7 @@ const CvFooter = () => {
             <i
               className="fa-solid fa-file-arrow-down fa-beat"
               style={{ color: "#634B8A" }}></i>
-          </a>
+          </a> */}
         </div>
       </div>
 
