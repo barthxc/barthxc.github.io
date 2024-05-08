@@ -10,8 +10,7 @@ const CvFooter = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-linkedin"></i>
           </a>
 
@@ -21,8 +20,7 @@ const CvFooter = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-github"></i>
           </a>
 
@@ -32,8 +30,7 @@ const CvFooter = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-twitter"></i>
           </a>
 
@@ -41,22 +38,19 @@ const CvFooter = () => {
             className="btn btn-floating btn-lg m-1"
             href="mailto:barthxc.business@gmail.com"
             role="button"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fa-solid fa-envelope"></i>
           </a>
 
           <a
             className="btn btn-floating btn-lg m-1"
-            href="./PBGCV.pdf"
+            href="../PBGCV.pdf"
             role="button"
-            target='blank'
-            data-mdb-ripple-color="dark"
-          >
+            target="blank"
+            data-mdb-ripple-color="dark">
             <i
               className="fa-solid fa-file-arrow-down fa-beat"
-              style={{ color: "#634B8A" }}
-            ></i>
+              style={{ color: "#634B8A" }}></i>
           </a>
         </div>
       </div>
