@@ -44,7 +44,7 @@ const CvFooter = () => {
 
           <a
             className="btn btn-floating btn-lg m-1"
-            href="../PBGCV.pdf"
+            href="PBGCV.pdf"
             role="button"
             target="blank"
             data-mdb-ripple-color="dark">
