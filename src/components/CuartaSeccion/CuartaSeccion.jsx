@@ -65,7 +65,7 @@ const CuartaSeccion = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: true,
-          infinite:true,
+          infinite: true,
           centerMode: true,
           centerPadding: "100px",
         },
@@ -76,7 +76,7 @@ const CuartaSeccion = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: true,
-          infinite:true,
+          infinite: true,
           centerMode: true,
           centerPadding: "40px",
         },
@@ -109,7 +109,6 @@ const CuartaSeccion = () => {
           arrows: true,
           centerMode: true,
           centerPadding: "-10px",
-
         },
       },
     ],
@@ -120,13 +119,14 @@ const CuartaSeccion = () => {
       nombre: "BartHxC",
       img: "p1.jpeg",
       tec: "Become a developer",
-      linkweb: "https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/",
+      linkweb:
+        "https://www.linkedin.com/in/pablo-bartolomé-gallardo-8167a81b4/",
     },
     {
       nombre: "Portfolio",
       img: "p2.jpg",
       tec: "HTML- CSS - JS",
-      v0:"https://github.com/barthxc/Vanilla-Portfolio-BartHxC",
+      v0: "https://github.com/barthxc/Vanilla-Portfolio-BartHxC",
       react: "https://github.com/barthxc/React-Portfolio-BartHxC",
       astro: "https://github.com/barthxc/barthxc.github.io",
     },
@@ -150,7 +150,7 @@ const CuartaSeccion = () => {
       linkweb: "https://helpful-gumption-b43956.netlify.app",
       linkgit: "https://github.com/barthxc/GoatSales",
     },
-    
+
     {
       nombre: "Travel Agency",
       img: "p16.png",
@@ -166,27 +166,25 @@ const CuartaSeccion = () => {
       linkgit: "https://github.com/barthxc/MERN_APV_FRONT",
     },
     {
-      nombre:"Coworking SanJuan",
-      img:"p18.jpg",
-      tec:"MERN FullStack",
-      linkweb:"https://genuine-sorbet-fbbf1d.netlify.app",
-      linkgit:"https://github.com/barthxc/Frontend-Turnos-Coworking-SanJuan"
+      nombre: "Coworking SanJuan",
+      img: "p18.jpg",
+      tec: "MERN FullStack",
+      linkweb: "https://genuine-sorbet-fbbf1d.netlify.app",
+      linkgit: "https://github.com/barthxc/Frontend-Turnos-Coworking-SanJuan",
     },
     {
-      nombre:"Filmli",
-      img:"p19.png",
-      tec:"MERN FullStack",
-      linkweb:"https://astonishing-wisp-979f91.netlify.app",
-
+      nombre: "Filmli",
+      img: "p19.png",
+      tec: "MERN FullStack",
+      linkweb: "https://filmli.netlify.app",
     },
     {
-      nombre:"Tech Explorer",
-      img:"p20.png",
-      tec:"MERN FullStack",
-      linkweb:"https://stupendous-cuchufli-a7d2a1.netlify.app",
-      linkgit:"https://github.com/barthxc/Tech-Explorer-Front"
+      nombre: "Tech Explorer",
+      img: "p20.png",
+      tec: "MERN FullStack",
+      linkweb: "https://stupendous-cuchufli-a7d2a1.netlify.app",
+      linkgit: "https://github.com/barthxc/Tech-Explorer-Front",
     },
-
 
     //Principales
     {
@@ -211,76 +209,80 @@ const CuartaSeccion = () => {
       linkgit: "https://github.com/barthxc/Veterinario-Form",
     },
     {
-        nombre: "WeatherApp",
-        img: "p9.png",
-        tec: "HTML - CSS - Fetch",
-        linkweb: "https://extraordinary-zabaione-eea825.netlify.app",
-        linkgit: "https://github.com/barthxc/WeatherApp",
-      },
-      {
-        nombre: "RecipeList",
-        img: "p10.jpg",
-        tec: "HTML - CSS - Fetch - LocalStorage",
-        linkweb: "https://sparkling-gaufre-c842f2.netlify.app",
-        linkgit: "https://github.com/barthxc/RecipeList",
-      },
-      {
-        nombre: "ImageFinder",
-        img: "p11.png",
-        tec: "HTML - CSS - Fetch",
-        linkweb: "https://hilarious-peony-fa991a.netlify.app",
-        linkgit: "https://github.com/barthxc/ImageFinder",
-      },
-      {
-        nombre: "CriptoCalc",
-        img: "p12.png",
-        tec: "HTML - CSS - Fetch",
-        linkweb: "https://singular-zuccutto-9f1d29.netlify.app",
-        linkgit: "https://github.com/barthxc/CriptoCalc",
-      },
-      {
-        nombre: "TipCalculator",
-        img: "p13.png",
-        tec: "Fetch - Json-Server",
-        linkgit: "https://github.com/barthxc/Calculadora-Propinas",
-      },
-      {
-        nombre: "CRM Clients",
-        img: "p14.png",
-        tec: "CRUD - Json-Server - Async/Await",
-        linkgit: "https://github.com/barthxc/CRM-JsonServer-CRUD-REST",
-      },
-      {
-        nombre: "Loan Calculador",
-        img: "p15.png",
-        tec: "VUE",
-        linkweb: "https://peaceful-pixie-38d541.netlify.app",
-        linkgit: "https://github.com/barthxc/cotizador-prestamos-Vue",
-      },
-      {
-        nombre: "Loan Calculador",
-        img: "p15.png",
-        tec: "REACT",
-        linkweb: "https://leafy-croissant-385175.netlify.app",
-        linkgit: "https://github.com/barthxc/cotizador-prestamos-React",
-      },
-      {
-        nombre: "HappyMoodCat",
-        img: "p21.png",
-        tec: "REACT",
-        linkweb: "https://happymoodcat.netlify.app",
-        linkgit: "https://github.com/barthxc/HappyMoodCat",
-      },
-      {
-        nombre: "In coming!",
-        img: "incoming.png",
-        tec: "New Proyect Soon!",
-      },
+      nombre: "WeatherApp",
+      img: "p9.png",
+      tec: "HTML - CSS - Fetch",
+      linkweb: "https://extraordinary-zabaione-eea825.netlify.app",
+      linkgit: "https://github.com/barthxc/WeatherApp",
+    },
+    {
+      nombre: "RecipeList",
+      img: "p10.jpg",
+      tec: "HTML - CSS - Fetch - LocalStorage",
+      linkweb: "https://sparkling-gaufre-c842f2.netlify.app",
+      linkgit: "https://github.com/barthxc/RecipeList",
+    },
+    {
+      nombre: "ImageFinder",
+      img: "p11.png",
+      tec: "HTML - CSS - Fetch",
+      linkweb: "https://hilarious-peony-fa991a.netlify.app",
+      linkgit: "https://github.com/barthxc/ImageFinder",
+    },
+    {
+      nombre: "CriptoCalc",
+      img: "p12.png",
+      tec: "HTML - CSS - Fetch",
+      linkweb: "https://singular-zuccutto-9f1d29.netlify.app",
+      linkgit: "https://github.com/barthxc/CriptoCalc",
+    },
+    {
+      nombre: "TipCalculator",
+      img: "p13.png",
+      tec: "Fetch - Json-Server",
+      linkgit: "https://github.com/barthxc/Calculadora-Propinas",
+    },
+    {
+      nombre: "CRM Clients",
+      img: "p14.png",
+      tec: "CRUD - Json-Server - Async/Await",
+      linkgit: "https://github.com/barthxc/CRM-JsonServer-CRUD-REST",
+    },
+    {
+      nombre: "Loan Calculador",
+      img: "p15.png",
+      tec: "VUE",
+      linkweb: "https://peaceful-pixie-38d541.netlify.app",
+      linkgit: "https://github.com/barthxc/cotizador-prestamos-Vue",
+    },
+    {
+      nombre: "Loan Calculador",
+      img: "p15.png",
+      tec: "REACT",
+      linkweb: "https://leafy-croissant-385175.netlify.app",
+      linkgit: "https://github.com/barthxc/cotizador-prestamos-React",
+    },
+    {
+      nombre: "HappyMoodCat",
+      img: "p21.png",
+      tec: "REACT",
+      linkweb: "https://happymoodcat.netlify.app",
+      linkgit: "https://github.com/barthxc/HappyMoodCat",
+    },
+    {
+      nombre: "In coming!",
+      img: "incoming.png",
+      tec: "New Proyect Soon!",
+    },
   ];
 
   return (
     <section id="projects">
-      <img src="./Portfolio/s4f1.png" alt="Fondo de la sección 4 con una imagen" className="bg" />
+      <img
+        src="./Portfolio/s4f1.png"
+        alt="Fondo de la sección 4 con una imagen"
+        className="bg"
+      />
 
       <div className="w-full  mx-auto mb-10 px-10">
         <Slider {...settings}>
@@ -289,7 +291,7 @@ const CuartaSeccion = () => {
           ))}
         </Slider>
       </div>
-      <Footer/>
+      <Footer />
     </section>
   );
 };
