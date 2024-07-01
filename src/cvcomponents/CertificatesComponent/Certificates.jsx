@@ -1,6 +1,6 @@
 import React from "react";
 import { certificatesData } from "./certificatesData";
-function Section4() {
+function Certificates() {
   return (
     <div className="resume" id="resume">
       <div className="section-content">
@@ -39,4 +39,4 @@ function Section4() {
   );
 }
 
-export default Section4;
+export default Certificates;
