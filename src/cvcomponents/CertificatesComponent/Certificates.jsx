@@ -15,7 +15,7 @@ function Section4() {
                       <tr>
                         <td className="data">
                           <a
-                            href={`./Documents/Certificates/${info.name}.pdf`}
+                            href={`https://barthxc.github.io/Documents/Certificates/${info.name}.pdf`}
                             role="button"
                             target="blank">
                             <h3>{info.name}</h3>
