@@ -55,10 +55,22 @@ const Footer = () => {
             href="./Documents/Cvs/PBG-CV.pdf"
             role="button"
             target="blank"
-            data-mdb-ripple-color="dark">
+            data-mdb-ripple-color="dark"
+            title="CV">
             <i
               className="fa-solid fa-file-arrow-down fa-beat"
               style={{ color: "#634B8A" }}></i>
+          </a>
+          <a
+            className="btn btn-floating btn-lg m-1 text-purple-500"
+            href="./Documents/Cvs/PBG-CVATS.pdf"
+            role="button"
+            target="blank"
+            data-mdb-ripple-color="dark"
+            title="CV ATS Friendly">
+            <i
+              className="fa-solid fa-file-arrow-down fa-beat"
+              style={{ color: "#60a5fa" }}></i>
           </a>
         </div>
       </div>
