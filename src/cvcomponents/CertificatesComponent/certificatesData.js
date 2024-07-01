@@ -6,7 +6,7 @@ export const certificatesData = [
   },
   {
     id: 2,
-    name: "Node-JS",
+    name: "NODE-JS",
     lugar: "Devtalles",
   },
   {
