@@ -1,6 +1,5 @@
-import './Footer.css';
+import "./Footer.css";
 const Footer = () => {
-
   return (
     <footer className="footer text-center text-white" id="contact">
       <div className="container pt-4">
@@ -11,8 +10,7 @@ const Footer = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-linkedin"></i>
           </a>
 
@@ -22,8 +20,7 @@ const Footer = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-github"></i>
           </a>
 
@@ -33,8 +30,7 @@ const Footer = () => {
             role="button"
             rel="noopener noreferrer"
             target="_blank"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fab fa-twitter"></i>
           </a>
 
@@ -42,35 +38,37 @@ const Footer = () => {
             className="btn btn-floating btn-lg m-1"
             href="mailto:barthxc.business@gmail.com"
             role="button"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fa-solid fa-envelope"></i>
           </a>
 
           <a
-          href='/cv'
+            href="/cv"
             className="btn btn-floating btn-lg m-1"
             role="button"
-            data-mdb-ripple-color="dark"
-          >
+            data-mdb-ripple-color="dark">
             <i className="fa-solid fa-file-lines"></i>
           </a>
 
           <a
             className="btn btn-floating btn-lg m-1"
-            href="./PBGCV.pdf"
+            href="./Documents/Cvs/PBG-CV.pdf"
             role="button"
-            target='blank'
-            data-mdb-ripple-color="dark"
-          >
-            <i className="fa-solid fa-file-arrow-down fa-beat" style={{ color: '#634B8A' }}></i>
+            target="blank"
+            data-mdb-ripple-color="dark">
+            <i
+              className="fa-solid fa-file-arrow-down fa-beat"
+              style={{ color: "#634B8A" }}></i>
           </a>
         </div>
       </div>
 
       <p>
         Thanks!&nbsp;
-        <a href="https://www.conchimunuerad.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.conchimunuerad.com"
+          target="_blank"
+          rel="noopener noreferrer">
           Illustrator - Conchi Munuera
         </a>
       </p>

@@ -28,18 +28,19 @@ const Navbar = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <li>
+              <a href="/certificates">Certificates</a>
+            </li>
           </ul>
 
           <div
             className={`toggle_btn ${isOpen ? "open" : ""}`}
-            onClick={toggleMenu}
-          ></div>
+            onClick={toggleMenu}></div>
         </nav>
 
         <div
           className={`dropdown_menu ${isOpen ? "open" : ""}`}
-          id="dropdown_menu"
-        >
+          id="dropdown_menu">
           <li>
             <a href="#home" className="active">
               Home
@@ -50,8 +51,7 @@ const Navbar = () => {
               href="#about"
               onClick={() => {
                 setIsOpen(false);
-              }}
-            >
+              }}>
               About
             </a>
           </li>
@@ -60,8 +60,7 @@ const Navbar = () => {
               href="#projects"
               onClick={() => {
                 setIsOpen(false);
-              }}
-            >
+              }}>
               Proyect
             </a>
           </li>
@@ -70,9 +69,17 @@ const Navbar = () => {
               href="#contact"
               onClick={() => {
                 setIsOpen(false);
-              }}
-            >
+              }}>
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/certificates"
+              onClick={() => {
+                setIsOpen(false);
+              }}>
+              Certificates
             </a>
           </li>
         </div>
