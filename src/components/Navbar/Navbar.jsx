@@ -10,7 +10,12 @@ const Navbar = () => {
 
   return (
     <>
-      <img src="./LOGO_MORADO-B1.png" alt="logo" className="logo" />
+      <img
+        src="./LOGO_MORADO-B1.png"
+        alt="logo"
+        className="logo"
+        loading="lazy"
+      />
       <div className="container-menu">
         <nav>
           <ul className="menulist">

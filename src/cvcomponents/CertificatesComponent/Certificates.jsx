@@ -14,7 +14,10 @@ function Section4() {
                     <React.Fragment key={info.id}>
                       <tr>
                         <td className="data">
-                          <a href={`./Documents/Certificates/${info.name}.pdf`}>
+                          <a
+                            href={`./Documents/Certificates/${info.name}.pdf`}
+                            role="button"
+                            target="blank">
                             <h3>{info.name}</h3>
                           </a>
                         </td>
