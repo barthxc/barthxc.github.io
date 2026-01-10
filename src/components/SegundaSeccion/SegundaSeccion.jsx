@@ -80,7 +80,7 @@ const SegundaSeccion = () => {
                 <span className="text-slate-500">&gt;</span>
                 <span className="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10">
                   <span className="relative text-blue-400">
-                    React <span className="text-violet-400">&&</span> Tailwind{" "}
+                    React <span className="text-violet-400">&&</span> Angular{" "}
                   </span>
                 </span>
 
@@ -95,9 +95,8 @@ const SegundaSeccion = () => {
                 <span className="text-slate-500">&gt;</span>
                 <span className="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10">
                   <span className="relative text-blue-400">
-                    Node <span className="text-violet-400">&&</span> Mongoose{" "}
-                    <span className="text-violet-400">&&</span> Prisma{" "}
-                    <span className="text-violet-400">&&</span> MongoDb
+                    Node <span className="text-violet-400">&&</span> Express{" "}
+                    <span className="text-violet-400">&&</span> NestJs{" "}
                   </span>
                 </span>
 
@@ -111,28 +110,17 @@ const SegundaSeccion = () => {
                 <span className="text-pink-400">Skills</span>
                 <span className="text-slate-500">&gt;</span>
               </p>
-
-              <p className="ml-3 font-mono text-1xl font-normal leading-4 tracking-wide text-violet-400">
-                <span className="text-slate-500">&lt;</span>
-                <span className="text-pink-400">Skills</span>
-                <span className="text-slate-500">&gt;</span>
-                <span className="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10">
-                  <span className="relative text-blue-400">
-                    MERN <span className="text-violet-400">&&</span> NextJs
-                  </span>
-                </span>
-                <span className="text-slate-500">&lt;/</span>
-                <span className="text-pink-400">Skills</span>
-                <span className="text-slate-500">&gt;</span>
-              </p>
-
               <p className="ml-3 font-mono text-1xl font-normal tracking-wide text-violet-400">
                 <span className="text-slate-500">&lt;</span>
                 <span className="text-pink-400">Hobbies</span>
                 <span className="ml-2 text-violet-400">
                   value<span className="text-slate-500">=</span>
+                  <span className="text-slate-500">{'{'}</span>
                   <span className="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10">
-                    <span className="relative text-blue-400">music</span>
+                    <span className="relative text-blue-400">Music</span>
+                    <span className="text-slate-500">,</span>
+                    <span className="relative text-blue-400">Ants</span>
+                    <span className="text-slate-500">{'}'}</span>
                   </span>
                 </span>
                 <span className="text-slate-500">/&gt;</span>
